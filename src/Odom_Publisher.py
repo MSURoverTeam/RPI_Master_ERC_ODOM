@@ -3,6 +3,8 @@
 
 #This script receives wheel odom data in rad/s via ros /Odom_Raw topic
 #and uses it and IMU data to publish /odom topic for navigation
+#Software designed by Andrey Smirnov, Moscow State Unversity, 2022
+
 import math
 from math import sin, cos, pi
 

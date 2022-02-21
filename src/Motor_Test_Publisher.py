@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #Publishes message with required ID type and speed to topic to be sent via can.
+#Software designed by Andrey Smirnov, Moscow State Unversity, 2022
 
 import os
 import time

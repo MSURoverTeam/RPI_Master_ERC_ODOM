@@ -2,6 +2,7 @@
 
 #interprets byte array received from one of the wheels into rad/s
 #odometry message
+#Software designed by Andrey Smirnov, Moscow State Unversity, 2022
 
 import os
 import time
