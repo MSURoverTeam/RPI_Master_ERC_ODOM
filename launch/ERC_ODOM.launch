@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="ERC_ODOM" type="Odom_Publisher.py" name="Odom_Publisher" output="log" respawn="false"/>
+    <node pkg="ERC_ODOM" type="Wheel_Odom_Decoder.py" name="Wheel_Odom_Decoder" output="log" respawn="false"/>
+</launch>
